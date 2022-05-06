@@ -276,9 +276,9 @@ def main(args):
                     pred_1981, var_1981, pd.concat(data['test_1981']))
 
             tqdm.tqdm.write('\nRMSE 1980: {:.3f}'.format(rmse_1980['TAVG']))
-            tqdm.tqdm.write('MLL 1980: {:.3f}'.format(mll_1980['TAVG']))
-            tqdm.tqdm.write('\nRMSE 1981: {:.3f}'.format(rmse_1981['TAVG']))
-            tqdm.tqdm.write('MLL 1981: {:.3f}'.format(mll_1981['TAVG']))
+            #tqdm.tqdm.write('MLL 1980: {:.3f}'.format(mll_1980['TAVG']))
+            #tqdm.tqdm.write('\nRMSE 1981: {:.3f}'.format(rmse_1981['TAVG']))
+            #tqdm.tqdm.write('MLL 1981: {:.3f}'.format(mll_1981['TAVG']))
 
     # Evaluate model performance.
     with torch.no_grad():
